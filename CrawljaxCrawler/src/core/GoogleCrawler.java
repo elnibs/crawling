@@ -1,7 +1,4 @@
-/**
- * Source code copyrighted to Nibal Sawaya
- * No usage of any sort allowed
- */
+
 package core;
 
 import java.io.File;
