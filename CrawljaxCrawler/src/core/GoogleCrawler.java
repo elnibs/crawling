@@ -1,4 +1,3 @@
-
 package core;
 
 import java.io.File;
@@ -47,7 +46,7 @@ public class GoogleCrawler {
 	public CopyOnWriteArrayList<String> getUrls(String searchTerm,
 			String pageNumber) throws IOException, SAXException,
 			ParserConfigurationException {
-
+		//no paging for now
 		CrawljaxConfigurationBuilder builder = CrawljaxConfiguration
 				.builderFor("https://www.google.com/search?num=100&gl=us&authuser=0&q=allintext%3A"
 						+ searchTerm);
